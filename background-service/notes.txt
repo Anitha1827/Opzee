@@ -1,0 +1,6 @@
+1.to start nodejs server with mp2:- pm2 start app.js --name "your-app-name"
+2.Monitor the status:-pm2 status
+3. restart the server:- pm2 restart your-app-name
+4.Stop the server:-pm2 stop your-app-name
+5.Delete:-pm2 delete your-app-name
+6.Automatic Startup on System Boot:-pm2 startup
